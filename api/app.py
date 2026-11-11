@@ -14,7 +14,7 @@ os.environ['OPENAI_API_KEY']=os.getenv("OPENAI_API_KEY")
 app=FastAPI(
     title="Langchain Server",
     version="1.0",
-    decsription="A simple API Server"
+    description="A simple API Server"
 
 )
 
